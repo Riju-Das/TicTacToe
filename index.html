@@ -7,14 +7,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="startgame"></div>
+    <div class="startgame active">
+        <div class="boxform">
+            <div class="formtext">Enter the names of the player</div>
+            <form action="" class="createusers">
+                <label for="player1">Player1: </label>
+                <input type="text" name="name" id="player1" class="player">
+                <label for="player2">Player2: </label>
+                <input type="text" name="name" id="player2" class="player">
+                <button class="submitbtn">Submit</button>
+            </form>
+        </div>
+    </div>
     <div class="titlecontainer">
         <div class="firsttitle">WELCOME TO</div>
         <div class="secondtitle">TIC-TAC-TOE</div>
     </div>
     <main>
+
         <div class="maincontainer">
+            <div class="firstplayerside"></div>
             <div class="gamecontainer">
+
                 <div class="box" id="box1"></div>
                 <div class="box" id="box2"></div>
                 <div class="box" id="box3"></div>
@@ -24,8 +38,12 @@
                 <div class="box" id="box7"></div>
                 <div class="box" id="box8"></div>
                 <div class="box" id="box9"></div>
+
             </div>
+            <div class="secondplayerside"></div>
         </div>
+        <div class="resetbtn"><div>Reset</div></div>
+        <div class="winningteam"></div>
     </main>
     <script src="script.js"></script>
 </body>

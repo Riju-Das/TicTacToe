@@ -15,7 +15,7 @@ body{
 } */
 
 .titlecontainer{
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -201,6 +201,9 @@ body{
     font-size: 28px;
 }
 @media (orientation: portrait) {
+    .titlecontainer{
+        height: 15vh;
+    }
     .maincontainer{
         margin-bottom: 0px;
     }

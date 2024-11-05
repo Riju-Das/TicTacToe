@@ -1,5 +1,4 @@
 const box = document.querySelectorAll(".box")
-
 const firstplayerside= document.querySelector(".firstplayerside")
 const secondplayerside= document.querySelector(".secondplayerside")
 const submitbtn = document.querySelector(".submitbtn")
